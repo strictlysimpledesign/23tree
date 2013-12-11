@@ -1,0 +1,11 @@
+Implementation of the data structre 2-3 tree as a bidirectional graph of linked Node objects.
+
+Create tree with first value 1:
+tree = Node(1)
+
+Insert 4:
+tree.insert(4)
+
+Test if the tree contains value 5:
+tree.element(5)
+>>> False
