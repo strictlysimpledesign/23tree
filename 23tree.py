@@ -117,11 +117,3 @@ class Node(object):
         else:
             return False
 
-
-
-tree = Node(1)
-for i in range(2,20):
-    tree.insert(i)
-print Node.path
-
-
