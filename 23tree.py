@@ -8,6 +8,7 @@ class Node(object):
         self.parent = parent        
 
     def insert(self, value):
+        Node.path = []
         insert_node = self.search(value)
         insert_node.add(value)
 
@@ -118,7 +119,9 @@ class Node(object):
 
 
 
-
-
+tree = Node(1)
+for i in range(2,20):
+    tree.insert(i)
+print Node.path
 
 
